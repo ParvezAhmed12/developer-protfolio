@@ -1,0 +1,18 @@
+/* common shard stye  */
+body{
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+/*  nav releted style */
+nav {
+    display: flex;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+}
