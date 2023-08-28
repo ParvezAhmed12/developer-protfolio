@@ -1,18 +1,50 @@
-/* common shard stye  */
-body{
+/* Common shared style */
+body {
     font-family: 'Fira Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
 }
 
-/*  nav releted style */
+/* Nav related styles */
 nav {
     display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 10px 0;
+    justify-content: space-between;
 }
 
+.nav-title {
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
 
+.text-primary {
+    color: #FD6E0A;
+}
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px; /* Adjusted to 50px */
+    align-items: center;
+}
 
 nav a {
     text-decoration: none;
+    color: #333;
 }
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
